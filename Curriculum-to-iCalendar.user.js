@@ -1,11 +1,10 @@
 // ==UserScript==
 // @name         课表助手
 // @namespace    http://tampermonkey.net/
-// @version      0.2.1
+// @version      0.2.2
 // @description  一键导出课表为ics文件
 // @author       Qingao Chai
 // @match        http://bkjw.whu.edu.cn/stu/stu_index.jsp
-// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js
 // @grant        none
 // ==/UserScript==
