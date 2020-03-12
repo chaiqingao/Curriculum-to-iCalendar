@@ -3,7 +3,7 @@
  * @Author: Qingao Chai
  * @Date: 2020-03-12 14:58:27
  * @LastEditors: Qingao Chai
- * @LastEditTime: 2020-03-12 17:58:02
+ * @LastEditTime: 2020-03-12 21:56:10
  -->
 
 # Curriculum-to-iCalendar 课表助手
@@ -17,8 +17,11 @@
 ## 准备
 
 - 浏览器安装[Tampermonkey](https://www.tampermonkey.net/)
-- 点击[这里](https://github.com/chaiqingao/Curriculum-to-iCalendar/raw/master/Curriculum-to-iCalendar.user.js)开始安装脚本
-- 或者直接下载`Curriculum-to-iCalendar.user.js`复制到新建脚本中手动安装
+
+## 安装
+- 点击[这里](https://greasyfork.org/zh-CN/scripts/397788-%E8%AF%BE%E8%A1%A8%E5%8A%A9%E6%89%8B)开始安装脚本
+- 或 点击[这里](https://github.com/chaiqingao/Curriculum-to-iCalendar/raw/master/Curriculum-to-iCalendar.user.js)开始安装脚本
+- 或 直接下载`Curriculum-to-iCalendar.user.js`复制到新建脚本中手动安装
 
 ## 使用方法
 
