@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         课表助手
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.2.1
 // @description  一键导出课表为ics文件
 // @author       Qingao Chai
 // @match        http://bkjw.whu.edu.cn/stu/stu_index.jsp
@@ -15,7 +15,9 @@
     // 窗口加载完成调用函数
     window.onload = function () {
         // 获取main-->page_iframe-->iframe0
-        var iframe0 = document.getElementById("page_iframe").contentDocument.getElementById("iframe0");
+        var page_iframe = document.getElementById("page_iframe");
+        if (page_iframe === null || typeof page_iframe === "undefined") return;
+        var iframe0 = page_iframe.contentDocument.getElementById("iframe0");
         // 非课表页面直接return
         if (iframe0 === null || typeof iframe0 === "undefined") return;
         if (iframe0.getAttribute("src").search("/servlet/Svlt_QueryStuLsn") == -1) return;
