@@ -17,7 +17,7 @@
 ## 准备
 
 - 浏览器安装[Tampermonkey](https://www.tampermonkey.net/)
-- 将`Curriculum-to-iCalendar.user.js`添加至新脚本
+- 点击[这里](https://github.com/chaiqingao/Curriculum-to-iCalendar/raw/master/Curriculum-to-iCalendar.user.js)开始安装脚本
 
 ## 使用方法
 
