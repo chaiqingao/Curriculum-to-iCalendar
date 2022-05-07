@@ -3,7 +3,7 @@
  * @Author: Qingao Chai
  * @Date: 2020-03-12 14:58:27
  * @LastEditors: Qingao Chai
- * @LastEditTime: 2020-03-12 21:56:10
+ * @LastEditTime: 2022-05-07 14:11:45
  -->
 
 # Curriculum-to-iCalendar 课表助手
@@ -29,3 +29,4 @@
 ## 目前支持的教务系统
 
 - WHU
+- SDJZU
